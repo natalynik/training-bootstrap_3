@@ -1,0 +1,156 @@
+$background-color: #ffffff;
+$background-color-darken: #f4f4f4;
+$background-contact:#43434f;
+$background-logo: #3f4c7b;
+$background-button: #6f72f7;
+$font-color: #212121;
+$font-color-second: #696969;
+$font-color-h: #c0a064;
+$font-color-logo: #ffffff;
+$font-family: 'Lato', sans-serif ;
+$font-family-h: 'Playfair Display', sans-serif;
+$font-size-small:11px;
+$font-size:14px;
+$font-size-icons:18px;
+$font-size-middle:24px;
+$font-size-big:38px;
+$padding-main:90px;
+$padding-main-mobile:45px;
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+* {
+  box-sizing: border-box;
+  font-family:$font-family;
+}
+
+header {
+  background-size: cover;
+  background-image: url("https://picua.org/images/2020/02/26/a6cd805713e9fe8976d888c91fd314bf.png");
+  @media screen and (max-width: 1300px) {
+    background-position: center;
+  }
+}
+.cover {
+  background:$background-color;
+  opacity: 0.75;
+}
+.title {
+  font-family:$font-family-h;
+  color:$font-color-h;
+  font-weight: 900;
+  margin-top: 300px;
+}
+.title-small {
+  font-weight: 300;
+}
+.btn-discover {
+  text-align: center;
+  padding: 150px 0;
+}
+.btn-project {
+  border-color:$font-color-h;
+  background:transparent;
+  color:$font-color-h;
+  border-radius: 0;
+}
+.navbar-project {
+  background-color:transparent;
+  border: none;
+  box-shadow: none;
+  background-image: none;
+  font-family:$font-family;
+}
+.glyphicon-camera {
+  color:$font-color-h;
+}
+.nav-pills, .navbar-brand, .brand-link, .dropdown {
+  display: inline-block;
+}
+.brand-link {
+  margin-left:25%;
+  @media screen and (max-width: 991px) {
+    margin-left:50px;
+  }
+}
+.block-menu a {
+  color:$font-color;
+}
+.nav-pills > li.active > a:hover {
+  color:$font-color;
+  background-color: #eee;
+}
+.hamb-menu {
+  color:$font-color;
+  font-size: 18px;
+}
+.dropdown-menu {
+min-width: auto;
+}
+.navbar-right-hamb {
+  float: right !important;
+  margin: 10px 80px;
+}
+.recent {
+  font-weight: bold;
+  margin: 50px 0;
+}
+.item {
+  width: 100%;
+}
+.padding {
+  padding-top: 30px;
+}
+.padding-b {
+  @media screen and (max-width: 991px) {
+    padding-top: 30px;
+  }
+}
+.collections {
+  padding-top: 120px;
+}
+.title-collection {
+  font-family:$font-family-h;
+  font-weight: bold;
+}
+.text-block {
+  padding: 50px;
+  @media screen and (max-width: 1199px) {
+    padding: 30px;
+  }
+  @media screen and (max-width: 991px) {
+    text-align: center;
+    padding: 100px;
+  }
+  @media screen and (max-width: 500px) {
+    padding: 50px;
+  }
+}
+.text-block p{
+  padding: 50px 0;
+  @media screen and (max-width: 1199px) {
+    padding: 10px 0;
+  }
+}
+.input-block, .submit {
+  width: 30%;
+  border-radius: 0;
+  margin: 0 auto;
+  @media screen and (max-width: 1199px) {
+    width: 50%;
+  }
+}
+.btn-submit {
+text-align: center;
+  margin: 20px 0;
+}
+.submit {
+  font-weight: bold;
+}
+.icons {
+  text-align: center;
+}
+.icons i {
+  color:$font-color;
+  font-weight: 800;
+}
